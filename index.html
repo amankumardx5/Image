@@ -21,7 +21,7 @@
 <script>
     const container = document.querySelector(".container");
 function load(page) {
-  const url = `https://api.unsplash.com/photos/?client_id=IYIg-QMyBimTW0KkLPu_jEMEilDOOa89g6r68KcFTfU&page=${page}`;
+  const url = `https://api.unsplash.com/photos?&client_id=IYIg-QMyBimTW0KkLPu_jEMEilDOOa89g6r68KcFTfU&order_by=latest&page=${page}`;
 
   fetch(url, {
     method: "GET",
